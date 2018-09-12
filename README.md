@@ -31,4 +31,4 @@ crawler('http://wwww.leehyunggeun.com', /LeeHyungGeun/)
 
 ## Contributor
 Name: LeeHyungGeun\
-email: lhg4031@gmail.com
+Email: lhg4031@gmail.com
