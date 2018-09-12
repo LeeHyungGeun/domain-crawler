@@ -1,0 +1,25 @@
+{
+  "name": "domain-crawler",
+  "version": "0.0.4",
+  "description": "Crawler to the specific Domain",
+  "main": "./crawler.js",
+  "scripts": {
+    "build": "npx babel ./lib/crawler.js --out-file ./crawler.js --source-maps inline",
+    "start": "node ./app.js"
+  },
+  "keywords": [
+    "Crawler",
+    "Domain"
+  ],
+  "author": "leehyunggeun <lhg4031@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "cheerio": "^1.0.0-rc.2",
+    "colors": "^1.3.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {}
+}
